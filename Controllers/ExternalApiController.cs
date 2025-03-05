@@ -1,9 +1,9 @@
-﻿namespace ExternalApiBackend.Controllers
-{
-    using ExternalApiBackend.Services;
-    using Microsoft.AspNetCore.Mvc;
-    using System.Threading.Tasks;
+﻿using ExternalApiBackend.Services;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
+namespace ExternalApiBackend.Controllers
+{
     [Route("api/external")]
     [ApiController]
     public class ExternalApiController : ControllerBase
@@ -15,7 +15,6 @@
             _externalApiService = externalApiService;
         }
 
-        // ✅ GET users
         [HttpGet("users")]
         public async Task<IActionResult> GetUsers()
         {
@@ -23,7 +22,6 @@
             return Ok(data);
         }
 
-        // ✅ POST: Create user
         [HttpPost("users")]
         public async Task<IActionResult> CreateUser([FromBody] dynamic user)
         {
@@ -31,7 +29,6 @@
             return Ok(data);
         }
 
-        // ✅ PUT: Update user
         [HttpPut("users/{id}")]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] dynamic user)
         {
@@ -39,7 +36,6 @@
             return Ok(data);
         }
 
-        // ✅ DELETE: Remove user
         [HttpDelete("users/{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {

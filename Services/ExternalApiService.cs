@@ -5,31 +5,31 @@ namespace ExternalApiBackend.Services
 {
     public class ExternalApiService : IExternalApiService
     {
-        private readonly IExternalApiRepository _externalApiRepository;
+        private readonly IMyRepository _myRepository;
 
-        public ExternalApiService(IExternalApiRepository externalApiRepository)
+        public ExternalApiService(IMyRepository myRepository)
         {
-            _externalApiRepository = externalApiRepository;
+            _myRepository = myRepository;
         }
 
         public async Task<string> GetUsersAsync()
         {
-            return await _externalApiRepository.GetUsersAsync();
+            return await _myRepository.GetExternalUsersAsync();
         }
 
         public async Task<string> CreateUserAsync(dynamic user)
         {
-            return await _externalApiRepository.CreateUserAsync(user);
+            return await _myRepository.CreateExternalUserAsync(user);
         }
 
         public async Task<string> UpdateUserAsync(int id, dynamic user)
         {
-            return await _externalApiRepository.UpdateUserAsync(id, user);
+            return await _myRepository.UpdateExternalUserAsync(id, user);
         }
 
         public async Task<bool> DeleteUserAsync(int id)
         {
-            return await _externalApiRepository.DeleteUserAsync(id);
+            return await _myRepository.DeleteExternalUserAsync(id);
         }
     }
 }

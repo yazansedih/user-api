@@ -1,7 +1,7 @@
 C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\appsettings.json
-C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\users.json
 C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\data\users.json
+C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\users.json
 C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\UserApi.staticwebassets.endpoints.json
 C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\UserApi.exe
 C:\Users\yazan\source\repos\UserApi\UserApi\bin\Debug\net9.0\UserApi.deps.json
@@ -20,6 +20,7 @@ C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\UserApi.AssemblyInf
 C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\UserApi.csproj.CoreCompileInputs.cache
 C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\UserApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\UserApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\UserApi.sourcelink.json
 C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\scopedcss\bundle\UserApi.styles.css
 C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\yazan\source\repos\UserApi\UserApi\obj\Debug\net9.0\staticwebassets.development.json

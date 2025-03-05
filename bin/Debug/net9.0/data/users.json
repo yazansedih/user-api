@@ -2,6 +2,8 @@
   "users": [
     {
       "Id": 1,
+      "Username": null,
+      "Password": null,
       "Email": "george.bluth@reqres.in",
       "FirstName": "Yazan",
       "LastName": "Sedih",
@@ -9,6 +11,8 @@
     },
     {
       "Id": 2,
+      "Username": null,
+      "Password": null,
       "Email": "janet.weaver@reqres.in",
       "FirstName": "Ahmad",
       "LastName": "Saadeh",
@@ -16,6 +20,8 @@
     },
     {
       "Id": 3,
+      "Username": null,
+      "Password": null,
       "Email": "barasedhi@gmail.com",
       "FirstName": "bara",
       "LastName": "sedih",
